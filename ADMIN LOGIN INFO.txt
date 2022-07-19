@@ -1,0 +1,17 @@
+
+
+to start project and apps:
+
+cd -> Desktop/virtualenv/firstproject cmd django-admin startproject firstproject
+django-admin start app finance,admission,other for app in apps'
+
+to start server:
+
+in same cd , python manage.py runserver
+to stop ctrl+c
+
+SUPERUSER (Admin access) ACCOUNT INFO:
+
+login: admin
+email: mine
+pass: crfracing
