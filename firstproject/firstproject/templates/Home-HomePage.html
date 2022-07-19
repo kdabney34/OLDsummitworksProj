@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>This is our home page</title>
+</head>
+<body>
+    here is our body
+    <!--may need to change vTextField type!             -->
+
+
+    <form id="homeform" action="{% url ':HomePage' %}" method="POST">
+        <!--{% csrf_token %}-->
+        <label for="personName" class="col-sm-2 col-form-label">-Person's Name: &nbsp;</label>
+        <input type="text" name="personName" class="vTextField" required>
+        <br>
+        <label for="enddate" class="col-sm-2 col-form-label">End Date: &nbsp;&nbsp;&nbsp;</label>
+        <input type="date" name="enddate" class="vTextField" required>
+        <button class="button" type="submit">Reset Attendance</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

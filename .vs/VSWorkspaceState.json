@@ -2,11 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\firstproject",
+    "\\firstproject\\admissions",
+    "\\firstproject\\admissions\\migrations",
     "\\firstproject\\finance",
     "\\firstproject\\finance\\migrations",
     "\\firstproject\\firstproject",
-    "\\firstproject\\schoolapp"
+    "\\firstproject\\firstproject\\templates",
+    "\\firstproject\\schoolapp",
+    "\\firstproject\\schoolapp\\migrations"
   ],
-  "SelectedNode": "\\firstproject\\finance\\migrations",
+  "SelectedNode": "\\firstproject\\admissions\\models.py",
   "PreviewInSolutionExplorer": false
 }

@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'admissions',
     'finance',
-    'schoolapp'
+    'schoolapp',
+    'firstproject'
 ]
 
 MIDDLEWARE = [
