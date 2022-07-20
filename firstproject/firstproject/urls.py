@@ -20,13 +20,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 
-from firstproject.views import HomePage
+
+#app_name = "home"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ad/', include('admissions.urls')),
+    path('shop/', include('shop.urls')),
     path('fin/', include('finance.urls')),
-    path("", HomePage)
+    #path("", HomePage.as_view(), name='home')
     #path('newadm/', ad.addAdmission),
     #path('admreport/', ad.admissionsReport),
 

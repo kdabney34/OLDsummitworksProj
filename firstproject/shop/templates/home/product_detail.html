@@ -1,0 +1,10 @@
+{% extends '../base.html' %}
+
+{% block title %}Product Detail{% endblock title %}
+
+{% block content %}
+    <h1>{{ productdetail.name }}</h1>
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    {{ productdetail.text }} <br>
+
+{% endblock content %}

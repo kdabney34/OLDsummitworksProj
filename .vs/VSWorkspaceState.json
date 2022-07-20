@@ -2,15 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\firstproject",
-    "\\firstproject\\admissions",
-    "\\firstproject\\admissions\\migrations",
     "\\firstproject\\finance",
-    "\\firstproject\\finance\\migrations",
     "\\firstproject\\firstproject",
-    "\\firstproject\\firstproject\\templates",
-    "\\firstproject\\schoolapp",
-    "\\firstproject\\schoolapp\\migrations"
+    "\\firstproject\\firstproject\\__pycache__",
+    "\\firstproject\\shop",
+    "\\firstproject\\shop\\templates",
+    "\\firstproject\\shop\\templates\\home",
+    "\\myVenv",
+    "\\myVenv\\Include",
+    "\\myVenv\\Lib",
+    "\\myVenv\\Scripts"
   ],
-  "SelectedNode": "\\firstproject\\admissions\\models.py",
+  "SelectedNode": "\\firstproject\\shop\\templates\\home\\product_update.html",
   "PreviewInSolutionExplorer": false
 }

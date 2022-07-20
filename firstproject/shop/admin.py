@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from .models import Admission
+from .models import Product
 
 # Register your models here.
 
-admin.site.register(Admission)
+admin.site.register(Product)

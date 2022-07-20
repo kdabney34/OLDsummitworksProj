@@ -1,0 +1,66 @@
+﻿{% extends '../base.html' %}
+
+{% block title %}Product List{% endblock title %}
+
+{% block content %}
+{{ products }}
+    {% if products %}
+<table>
+    {% for product in products %}
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td><a href="{% url 'productdetail' product.id %}">{{ product.name }}</a></td>
+
+        <td><a href="{% url 'productupdate' product.id %}"> Edit </a></td>
+    </tr>
+    {% empty %}
+    {% endfor %}
+</table>
+    {% else %}
+<p>No products are available.</p>
+    {% endif %}
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--may need to change vTextField type!             -->
+<!--what is url tag?
+ --ans--
+To link to another page in an app, to reconstruct the URL to it using the  url 'app_name:page_name' tags
+template tag with the app's name and the page's name:-->
+<!--<form id="homeform" action="{% url 'listProducts'  %}" method="POST">-->
+<!--{% csrf_token %}-->
+<!--<label for="personName" class="col-sm-2 col-form-label">-Person's Name: &nbsp;</label>
+    <input type="text" name="personName" class="vTextField" required>
+    <br>
+    <label for="enddate" class="col-sm-2 col-form-label">End Date: &nbsp;&nbsp;&nbsp;</label>
+    <input type="date" name="enddate" class="vTextField" required>
+    <button class="button" type="submit">Reset Attendance</button>
+</form>-->
