@@ -9,6 +9,11 @@ from django.urls import reverse_lazy
 # Create your views here.
 from django.http import HttpResponse
 
+# Good progress!
+# Suggestions - 1. Be consistant with naming conventions 
+# 2. Class names generally starts with Capital letter - Industry norm. 
+# 3. Reverse mapping urls - I do not see the namespace name / app name used here. What if you have view with the same logical name in another app in this same project??
+# How will django differentiate between the 2? 
 
 class addProduct(CreateView):
     model = Product
